@@ -21,13 +21,6 @@ Aplikacja nie zarządza ofertami Allegro i nie jest udostępniana innym sprzedaw
 
 AllDelid korzysta z OAuth Device Authorization Flow. Użytkownik rozpoczyna połączenie w aplikacji, otwiera stronę autoryzacyjną Allegro i zatwierdza dostęp na swoim koncie. Redirect URL nie jest wykorzystywany.
 
-## Wykorzystywane uprawnienia Allegro API
-
-| Scope | Zastosowanie |
-|---|---|
-| `allegro:api:profile:read` | Identyfikacja konta połączonego z aplikacją |
-| `allegro:api:orders:read` | Pobieranie zdarzeń, zamówień, danych dostawy i pozycji zamówienia |
-| `allegro:api:orders:write` | Zmiana statusu realizacji zamówienia na PROCESSING |
 
 ## Bezpieczeństwo
 
@@ -35,4 +28,4 @@ Client Secret, access token i refresh token są przechowywane lokalnie i chronio
 
 ## Kontakt
 
-Adres e-mail: WPISZ_TUTAJ_FIRMOWY_EMAIL
+Adres e-mail: filip.klincewicz@adelid.pl
